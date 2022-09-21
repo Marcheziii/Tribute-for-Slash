@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#0F0F0F;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container_background {
+    margin:0px 100px;
+    display:flex;
+    min-width:50%;
+    max-width:75%;
+    background-color:#efefef;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    font-family: 'Rock Salt', cursive;
+    color:#0f0f0f;
+    border-bottom:1px solid #0f0f0f;
+    padding:25px;
+    font-size:25px;
+    font-weight:800px;
+
+}
+
+.header h1 strong {
+    color:#e01010;
+}
+
+.img_header {
+    display:flex;
+    padding:30px;
+    border-radius:15px;
+    object-fit:cover;
+    justify-content:center;
+}
+
+.img_header figcaption {
+    display:flex;
+    padding:5px;
+    justify-content:center;
+    color:#d5d5d5;
+    background-color:#0f0f0f;
+}
+
+.img_header figcaption a {
+    text-decoration:none;
+    color:#d5d5d5;
+}
+
+.img_header figcaption a:hover {
+    text-decoration:underline;
+}
+
+.title_text_main {
+    display:flex;
+    justify-content:center;
+    color:#e72012;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    border-bottom:1px solid #0f0f0f;
+}
+
+.text_main {
+    display:flex;
+    padding:30px;
+    font-size:17px;
+    color: #222;
+    line-height:28px;
+}
+
+.border_texts {
+    border:1px solid #0f0f0f;
+    margin:20px;
+    margin-bottom:60px;
+    margin-top:60px;
+}
+
+.discography_camp {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    border:1px solid #0f0f0f;
+    border-top:none;
+    margin-bottom:70px;
+    padding:41px;
+}
+
+.discography_title {
+    display:flex;
+    justify-content:center;
+    font-family: 'Rock Salt', cursive;
+    color:#e72012;
+    font-weight: bold;
+    border:1px solid #0f0f0f;
+}
+
+.discography_camp strong {
+    color:#e72012;
+    font-size:20px; 
+    line-height:50px;
+}
+
+.discography_camp ul li {
+    font-size:17px;
+    padding-right:65px;
+    color:#222;
+
+}
+
+footer {
+    background-color:#0F0F0F;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.copy {
+    height:15px;
+    line-height:15px;
+    color:#7c7c7c;
+    font-size:13px;
+    margin:30px auto;
+}
+
+.copy a {
+    text-decoration:none;
+    color:#cccccc;
+}
+
+.copy a:hover {
+    text-decoration:underline;
+}
+
+
+
